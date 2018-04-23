@@ -135,9 +135,10 @@ figure:hover img{
 	float: right;
 	background-color: #666666;
 	color: white;
-	display: inline;
+	display: inline-block;
 	margin-bottom: 3%;
 	margin-right: 3%;
+	overflow: hidden;
 }
 .roundPicture {
 	border-radius: 50%;
@@ -169,7 +170,6 @@ figure:hover img{
 	width: 28%;
 	text-align: center;
 	color: white;
-	position: relative;
 }
 .miniIMG {
 	max-height: 100%;
