@@ -65,7 +65,7 @@ function changeTab(Id) {
       document.getElementById('bitcoinsinwallet').innerHTML = "Bitcoins in wallet: " + bitcoinsinwallet ;
   }
   function randomprice() {
-    price = Math.floor((Math.random()*10000)+1);
+    price = Math.floor((Math.random()*5000)+5000);
     document.getElementById('bitcoinprice').innerHTML = "Price of 1 Bitcoin: $" + price;
   }
 function buybitcoinminer(number) {

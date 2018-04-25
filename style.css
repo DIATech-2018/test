@@ -1,6 +1,5 @@
 html {
 	background-color: #333333;
-	height: 2000px;
 }
 body {
 	margin: 0px;
@@ -18,6 +17,7 @@ body {
 .navbar li {
 	display: inline;
 	padding: 10px 66.99px;
+	overflow: hidden;
 }
 a.nav-item {
 	text-decoration: none;
@@ -28,6 +28,9 @@ a.nav-item {
 .navbar li:hover {
 	background-color: #f36222;
 	color: black;
+}
+#active {
+	background-color: #d87715;
 }
 .mainLandingImage {
 	width: 100%;
@@ -202,5 +205,4 @@ figure:hover img{
 }
 .bigVideo {
 	width: 85%;
-
 }
